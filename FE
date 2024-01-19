@@ -1,0 +1,383 @@
+-- imie his Gui to Lua
+-- Version: 1
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.055555556, 0, 0.148562297, 0)
+ImageLabel.Size = UDim2.new(0, 425, 0, 278)
+ImageLabel.Image = "rbxassetid://11688383656"
+
+TextLabel.Parent = ImageLabel
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, -0.179856122, 0)
+TextLabel.Size = UDim2.new(0, 425, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Speedwalk + Spin GUI V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = TextLabel
+TextButton.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.0539798513, 0, 1.09855223, 0)
+TextButton.Size = UDim2.new(0, 385, 0, 33)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "Spin [100]"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner.Parent = TextButton
+
+TextButton_2.Parent = TextLabel
+TextButton_2.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 2
+TextButton_2.Position = UDim2.new(0.046921026, 0, 1.85855222, 0)
+TextButton_2.Size = UDim2.new(0, 385, 0, 33)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "Walkspeed [200]"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_2.Parent = TextButton_2
+
+TextButton_3.Parent = TextLabel
+TextButton_3.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 2
+TextButton_3.Position = UDim2.new(0.046921026, 0, 2.69855213, 0)
+TextButton_3.Size = UDim2.new(0, 385, 0, 33)
+TextButton_3.Font = Enum.Font.FredokaOne
+TextButton_3.Text = "Walkspeed [100]"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_3.Parent = TextButton_3
+
+TextButton_4.Parent = TextLabel
+TextButton_4.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 2
+TextButton_4.Position = UDim2.new(0.0539798513, 0, 3.53855228, 0)
+TextButton_4.Size = UDim2.new(0, 385, 0, 33)
+TextButton_4.Font = Enum.Font.FredokaOne
+TextButton_4.Text = "Spin [200]"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_4.Parent = TextButton_4
+
+TextButton_5.Parent = TextLabel
+TextButton_5.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 2
+TextButton_5.Position = UDim2.new(1.00456798, 0, -0.00144775386, 0)
+TextButton_5.Size = UDim2.new(0, 45, 0, 50)
+TextButton_5.Font = Enum.Font.FredokaOne
+TextButton_5.Text = "Press This"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_5.Parent = TextButton_5
+
+TextButton_6.Parent = TextLabel
+TextButton_6.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 2
+TextButton_6.Position = UDim2.new(0.046921026, 0, 4.33855247, 0)
+TextButton_6.Size = UDim2.new(0, 385, 0, 33)
+TextButton_6.Font = Enum.Font.FredokaOne
+TextButton_6.Text = "Walkspeed [300]"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UICorner_6.Parent = TextButton_6
+
+TextButton_7.Parent = TextLabel
+TextButton_7.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 2
+TextButton_7.Position = UDim2.new(0.0539798513, 0, 5.07855225, 0)
+TextButton_7.Size = UDim2.new(0, 385, 0, 33)
+TextButton_7.Font = Enum.Font.FredokaOne
+TextButton_7.Text = "Walkspeed [400]"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+UICorner_7.Parent = TextButton_7
+
+TextButton_8.Parent = TextLabel
+TextButton_8.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 2
+TextButton_8.Position = UDim2.new(0.046921026, 0, 5.89855242, 0)
+TextButton_8.Size = UDim2.new(0, 385, 0, 33)
+TextButton_8.Font = Enum.Font.FredokaOne
+TextButton_8.Text = "Spin [400]"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+UICorner_8.Parent = TextButton_8
+
+UICorner_9.Parent = ImageLabel
+
+-- Scripts:
+
+local function WMZN_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function click()
+		for i,v in pairs(game.Players:GetChildren()) do
+			local plr = v
+			number = 100
+			local head = v.Character.Head
+			if head then
+				local spin1 = head:FindFirstChild("Spin1")
+				local spin2 = head:FindFirstChild("Spin2")
+				if not spin1 then
+					spin1 = Instance.new("BodyAngularVelocity")
+					spin1.MaxTorque = Vector3.new(300000, 300000, 300000)
+					spin1.P = 300
+					spin1.Name = "Spin1"
+					spin1.Parent = head
+					spin2 = Instance.new("BodyGyro")
+					spin2.MaxTorque = Vector3.new(400000, 0, 400000)
+					spin2.D = 500
+					spin2.P = 300
+					spin2.Name = "Spin2"
+					spin2.Parent = head
+				end
+				spin1.AngularVelocity = Vector3.new(0,number,0)
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(WMZN_fake_script)()
+local function TUJS_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local p = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Character
+		p:FindFirstChildOfClass("Humanoid").WalkSpeed = 200
+	end)
+end
+coroutine.wrap(TUJS_fake_script)()
+local function YWBW_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local p = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Character
+		p:FindFirstChildOfClass("Humanoid").WalkSpeed = 100
+	end)
+end
+coroutine.wrap(YWBW_fake_script)()
+local function HCFWI_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	function click()
+		for i,v in pairs(game.Players:GetChildren()) do
+			local plr = v
+			number = 200
+			local head = v.Character.Head
+			if head then
+				local spin1 = head:FindFirstChild("Spin1")
+				local spin2 = head:FindFirstChild("Spin2")
+				if not spin1 then
+					spin1 = Instance.new("BodyAngularVelocity")
+					spin1.MaxTorque = Vector3.new(300000, 300000, 300000)
+					spin1.P = 300
+					spin1.Name = "Spin1"
+					spin1.Parent = head
+					spin2 = Instance.new("BodyGyro")
+					spin2.MaxTorque = Vector3.new(400000, 0, 400000)
+					spin2.D = 500
+					spin2.P = 300
+					spin2.Name = "Spin2"
+					spin2.Parent = head
+				end
+				spin1.AngularVelocity = Vector3.new(0,number,0)
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(HCFWI_fake_script)()
+local function XWLTK_fake_script() -- TextButton_5.ServerEventHandler 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local function write(text,object)
+			if object:IsA("Hint") == true then
+				local count = object:FindFirstChild("Count")
+				if count == nil then
+					count = Instance.new("NumberValue")
+					count.Parent = object
+					count.Name = "Count"
+					count.Value = count.Value + 1
+				else
+					count.Value = count.Value + 1
+				end
+				local startcount = count.Value
+				for i = 1,#text do
+					if count.Value == startcount then
+						local letter = string.sub(text,i,i)
+						object.Text = string.sub(text,1,i)
+						wait(0.001)
+					else
+						break
+					end
+				end
+			end
+		end
+		local bro = Instance.new("Hint",workspace)
+		write("Note: The Hint you are seeing is not FE! Some might not be FE, some might be.",bro)
+	end)
+	
+	
+end
+coroutine.wrap(XWLTK_fake_script)()
+local function NVQPF_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local p = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Character
+		p:FindFirstChildOfClass("Humanoid").WalkSpeed = 300
+	end)
+end
+coroutine.wrap(NVQPF_fake_script)()
+local function EONMWXG_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local p = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Character
+		p:FindFirstChildOfClass("Humanoid").WalkSpeed = 400
+	end)
+end
+coroutine.wrap(EONMWXG_fake_script)()
+local function XFBV_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	function click()
+		for i,v in pairs(game.Players:GetChildren()) do
+			local plr = v
+			number = 400
+			local head = v.Character.Head
+			if head then
+				local spin1 = head:FindFirstChild("Spin1")
+				local spin2 = head:FindFirstChild("Spin2")
+				if not spin1 then
+					spin1 = Instance.new("BodyAngularVelocity")
+					spin1.MaxTorque = Vector3.new(300000, 300000, 300000)
+					spin1.P = 300
+					spin1.Name = "Spin1"
+					spin1.Parent = head
+					spin2 = Instance.new("BodyGyro")
+					spin2.MaxTorque = Vector3.new(400000, 0, 400000)
+					spin2.D = 500
+					spin2.P = 300
+					spin2.Name = "Spin2"
+					spin2.Parent = head
+				end
+				spin1.AngularVelocity = Vector3.new(0,number,0)
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(XFBV_fake_script)()
+local function ABGNIJ_fake_script() -- ImageLabel.Dragify 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(ABGNIJ_fake_script)()
